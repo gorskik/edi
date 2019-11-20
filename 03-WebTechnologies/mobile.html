@@ -6,7 +6,25 @@
 	</head>
 	<body>
 		<h1>Create mobile phone</h1>
+		<button onclick="showPhone()">phone</button>
 		<script>
+		
+		function showPhone(){
+			phoneSpecification = {
+				name: "iPhone 11 Pro",
+				numberOfcameras: 5,
+				memoryInGB: 64,
+				sualSim: true,
+				fizyczne:{
+					wysokosc:150,
+					szerokosc: 70,
+					grubosc: 9
+				},
+				komunikacja: ['sms','mms']
+			}
+			alert(JSON.stringify(phoneSpecification))
+		}
+
 		</script>
 	</body>
 </html>

@@ -1,0 +1,5 @@
+function dateFunction(){
+    let x = Date()
+    alert(x)
+
+}
